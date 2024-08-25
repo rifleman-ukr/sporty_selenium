@@ -1,4 +1,2 @@
 pytest
 selenium
-opencv-python
-numpy
