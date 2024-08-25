@@ -1,5 +1,9 @@
 To run test on your computer you should have installed all required software and test_data.json 
 can be edited if you desire.
+This project is designed following Page Object Model pattern.
+Folder **pages** contain Base page class and specific pages which extend it.
+Conftest as usual contain test framework setup and page fixtures to make code of test much cleaner.
+The test by itself contain steps described in table below:
 
 | Step # |              Description              |                             Result                             |
 |:------:|:-------------------------------------:|:--------------------------------------------------------------:|
